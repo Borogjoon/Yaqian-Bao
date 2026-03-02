@@ -3354,3 +3354,21 @@ input, select, textarea {
 *::after {
     box-sizing: border-box;
 }
+
+#comments {
+	border-top: solid 6px #222;
+}
+
+#comments .container {
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+}
+
+#comments p {
+	color: #bdbdbd;
+	margin-bottom: 1.5em;
+}
+
+.giscus {
+	max-width: 100%;
+}
