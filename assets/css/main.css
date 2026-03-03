@@ -3372,3 +3372,274 @@ input, select, textarea {
 .giscus {
 	max-width: 100%;
 }
+
+.intro-stack {
+	border-left: 3px solid rgba(240, 183, 165, 0.7);
+	margin-bottom: 1.2em;
+	padding-left: 1.1em;
+}
+
+.intro-title {
+	color: #d16c90;
+	font-size: 2.55em;
+	letter-spacing: 0.02em;
+	margin-bottom: 0.3em;
+}
+
+header.major .intro-title {
+	color: #d16c90;
+	font-size: 2.55em;
+}
+
+.intro-name,
+.intro-role,
+.intro-summary {
+	color: #d7d4cc;
+	font-size: 1.08em;
+	font-weight: 400;
+	line-height: 1.85;
+	margin-top: 0;
+	max-width: 42em;
+}
+
+.intro-name {
+	color: #b9b4aa;
+	font-size: 0.88em;
+	letter-spacing: 0.01em;
+	margin-bottom: 0;
+	max-width: 44em;
+}
+
+.intro-role {
+	color: #b9b4aa;
+	font-size: 0.88em;
+	font-weight: 400;
+	letter-spacing: 0.01em;
+	line-height: 1.85;
+	margin-bottom: 0.7em;
+}
+
+header.major .intro-role {
+	color: #b9b4aa;
+	font-size: 0.88em;
+	font-weight: 400;
+	line-height: 1.85;
+	margin-top: 0;
+}
+
+.intro-summary {
+	color: #f5f3ed;
+	font-size: 1.22em;
+	line-height: 1.8;
+	margin-bottom: 0;
+}
+
+.publication-grid {
+	display: grid;
+	gap: 1.5em;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	margin-bottom: 2.5em;
+}
+
+.publication-card {
+	background: linear-gradient(180deg, rgba(255, 248, 238, 0.96) 0%, rgba(255, 255, 255, 0.92) 100%);
+	border: 1px solid rgba(191, 145, 84, 0.18);
+	border-radius: 1.25em;
+	box-shadow: 0 1.25em 3em rgba(35, 35, 35, 0.08);
+	overflow: hidden;
+	padding: 1.75em;
+	position: relative;
+}
+
+.publication-card h4 {
+	font-size: 1.15em;
+	line-height: 1.45;
+	margin-bottom: 0.65em;
+}
+
+.publication-card p {
+	margin-bottom: 0.75em;
+}
+
+.publication-card-image {
+	background-color: #121314;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+	min-height: 26.5em;
+	padding: 0;
+}
+
+.publication-card-image::before {
+	background: linear-gradient(180deg, rgba(18, 19, 20, 0.28) 0%, rgba(18, 19, 20, 0.58) 46%, rgba(18, 19, 20, 0.92) 100%);
+	content: '';
+	inset: 0;
+	position: absolute;
+}
+
+.publication-card-corpus {
+	background-image: url('../../images/corpus.jpg');
+	background-position: center 18%;
+}
+
+.publication-card-span {
+	background-image: url('../../images/ps.jpg');
+	background-position: center 28%;
+}
+
+.publication-card-surface {
+	color: #f6f2ea;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+	padding: 1.75em;
+	position: relative;
+	z-index: 1;
+}
+
+.publication-year {
+	color: #f0c9b3;
+	display: inline-block;
+	font-size: 0.9em;
+	font-weight: 700;
+	margin-bottom: 0.9em;
+}
+
+.publication-authors {
+	color: inherit;
+	font-size: 0.98em;
+}
+
+.publication-card-image h4 {
+	color: #ffffff;
+}
+
+.publication-venue {
+	color: #f2d8c8;
+	font-size: 0.98em;
+}
+
+.publication-note {
+	color: rgba(246, 242, 234, 0.9);
+	font-size: 0.92em;
+	line-height: 1.75;
+	min-height: 4.5em;
+}
+
+.publication-links {
+	margin-bottom: 0;
+}
+
+.publication-links a {
+	border-bottom: 0;
+	color: #ffd7a0;
+	font-weight: 700;
+}
+
+.publication-list-wrap {
+	background: #fbfbf8;
+	border: 1px solid rgba(34, 34, 34, 0.08);
+	border-radius: 1.25em;
+	padding: 1.75em;
+}
+
+.publication-list-wrap h4 {
+	margin-bottom: 1em;
+}
+
+.publication-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.publication-list li {
+	align-items: baseline;
+	border-top: 1px solid rgba(34, 34, 34, 0.08);
+	display: flex;
+	gap: 1em;
+	justify-content: space-between;
+	padding: 1em 0;
+}
+
+.publication-list li:first-child {
+	border-top: 0;
+	padding-top: 0;
+}
+
+.publication-list a {
+	border-bottom: 0;
+	color: #8a4b18;
+	font-size: 0.92em;
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.publication-citation {
+	color: #3e4650;
+	font-size: 0.96em;
+	line-height: 1.8;
+}
+
+.publication-self {
+	color: #d16c90;
+	font-weight: 700;
+}
+
+.publication-self-featured {
+	color: #d16c90;
+}
+
+@media screen and (max-width: 736px) {
+	.intro-stack {
+		padding-left: 0.85em;
+	}
+
+	.intro-title {
+		font-size: 2.15em;
+	}
+
+	header.major .intro-title {
+		font-size: 2.15em;
+	}
+
+	.intro-name,
+	.intro-role,
+	.intro-summary {
+		font-size: 1em;
+		line-height: 1.75;
+	}
+
+	.intro-role {
+		font-size: 0.9em;
+	}
+
+	header.major .intro-role {
+		font-size: 0.9em;
+	}
+
+	.intro-name {
+		font-size: 0.9em;
+	}
+
+	.intro-summary {
+		font-size: 1.08em;
+	}
+
+	.publication-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.publication-card-image {
+		background-size: cover;
+		min-height: 22em;
+	}
+
+	.publication-list li {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 0.5em;
+	}
+}
